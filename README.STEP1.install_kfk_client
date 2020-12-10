@@ -1,0 +1,6 @@
+sudo yum install java-1.8.0-openjdk
+sudo alternatives --config java
+
+wget "https://archive.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz"
+tar -xvf kafka_2.12-2.2.1.tgz
+
